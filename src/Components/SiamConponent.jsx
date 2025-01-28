@@ -1,8 +1,8 @@
 
-const SiamConponent = () => {
+const SiamConponent = ({character,data}) => {
     return (
         <div>
-            <h1 className="text-amber-800">Bal pakna Siam</h1>
+            {data} Software Engineer he is {character}
         </div>
     );
 };
